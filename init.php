@@ -1,0 +1,1 @@
+<body><form action="/play.html"><input type="hidden" name="v"/></form><script>document.forms[0].submit();</script></body>

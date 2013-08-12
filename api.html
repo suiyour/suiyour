@@ -1,0 +1,30 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>CloudPlayer</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<STYLE>HTML {
+	BACKGROUND-COLOR: #000; MARGIN: auto; WIDTH: 100%; HEIGHT: 100%
+}
+BODY {
+	BACKGROUND-COLOR: #000; MARGIN: auto; WIDTH: 100%; HEIGHT: 100%
+}
+</STYLE>
+
+<SCRIPT src="api_files/h.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 9.00.8112.16440"></HEAD>
+<BODY>
+<DIV style="TEXT-ALIGN: center; WIDTH: 100%; BACKGROUND: #000; HEIGHT: 100%" id=ld name="ld">
+<TABLE style="MARGIN: auto; WIDTH: auto; HEIGHT: 100%" border=0>
+  <TBODY>
+  <TR>
+    <TD style="COLOR: #fff; VERTICAL-ALIGN: middle; align: center">
+      <CENTER id=msgx>正在载入，请稍等...</CENTER><IMG id=imgx src="api_files/loading2.gif"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="DISPLAY: none">
+<SCRIPT language=JavaScript src="api_files/stat.js"></SCRIPT>
+</DIV><IFRAME style="WIDTH: 100%; DISPLAY: none; HEIGHT: 100%" id=v1 border=0 
+src="api_files/play.htm" frameBorder=0 name=v1 scrolling=no></IFRAME>
+<FORM method=post action=init.php target=v1><INPUT id=r name=r 
+type=hidden><INPUT id=u name=u type=hidden></FORM>
+<SCRIPT type=text/javascript>function request(a){var b,c=location.href,d=c.substring(c.indexOf("?")+1,c.length).split("&"),e={};for(i=0;j=d[i];i++)e[j.substring(0,j.indexOf("=")).toLowerCase()]=j.substring(j.indexOf("=")+1,j.length);return b=e[a.toLowerCase()],"undefined"==typeof b?"":b}document.getElementById("r").value=document.referrer,document.getElementById("u").value=request("url"),document.forms[0].submit();var iframe=document.getElementById("v1");iframe.attachEvent?iframe.attachEvent("onload",function(){document.getElementById("ld").style.display="none";iframe.style.display="block"}):iframe.onload=function(){document.getElementById("ld").style.display="none";iframe.style.display="block"};</SCRIPT>
+</BODY></HTML>

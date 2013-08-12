@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>CloudPlayer</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<LINK rel="shortcut icon" href="favicon.ico" />
+<LINK rel=stylesheet type=text/css href="style.css">
+<SCRIPT src="jquery.min.js"></SCRIPT>
+<SCRIPT src="swfobject.js"></SCRIPT>
+<SCRIPT type=text/javascript src="min.js"></SCRIPT>
+<META name=GENERATOR content="MSHTML 8.00.6001.19403"></HEAD>
+<BODY>
+<DIV class=header>
+<DIV class=wrap>
+<DIV class=logo><A href="http://vod.dafanqie.info/index.html"><!--网站LOGO--><!--IMG 
+src="CloudPlayer/logo.gif"--></A></DIV>
+<UL class=sub_nav></UL></DIV></DIV>
+<DIV class=main>
+<DIV class=main>
+<DIV class=wrap>
+<DIV class=indexplayer>
+<DL class=z_box>
+  <DT class=z_img1></DT>
+  <DD>
+  <H2>提交任务</H2>
+  <P>支持下载链接、BT种子</P></DD></DL><I class=z_i_arrow></I>
+<DL class=z_box>
+  <DT class=z_img2></DT>
+  <DD>
+  <H2>云端下载、转码</H2>
+  <P>服务器快速下载并转码</P></DD></DL><I class=z_i_arrow></I>
+<DL class=z_box>
+  <DT class=z_img3></DT>
+  <DD>
+  <H2>在线播放/下载</H2>
+  <P>支持各种移动设备</P></DD></DL></DIV></DIV>
+<DIV class=input_wrap>
+<DIV class=txt_wrap><INPUT id=u 
+value=在此输入视频链接（thunder、ftp、http、ed2k、magnet、xplan、bt）或上传BT种子 type=text 
+name=playurl 
+placeholder="在此输入视频链接（thunder、ftp、http、ed2k、magnet、xplan、bt）或上传BT种子"></DIV><A 
+id=play-button class=btn_url onClick="return false;" 
+href="#">播放</A> <A id=upload-button 
+class=btn_bt onClick="return false;" 
+href="#">上传种子</A> </DIV>
+<FORM id=formget method=get name=formget action=vod.htm
+autocomplete="off"><INPUT id=url type=hidden name=url> </FORM></DIV>
+<DIV></DIV>
+</BODY></HTML>
